@@ -1,0 +1,24 @@
+{
+  "name": "poke",
+  "version": "1.0.0",
+  "description": "My Very Own Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrNightmare_",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fortnite": "^4.1.1",
+    "fs": "0.0.1-security",
+    "google": "^2.1.0",
+    "kaori": "^1.1.4",
+    "oakdex-pokedex": "^0.2.2",
+    "pokemon-gif": "^1.0.13",
+    "pornsearch": "^2.4.2",
+    "xvideos": "0.0.4",
+    "ytdl-core": "^0.20.4",
+    "ytsearcher": "^1.1.3"
+  }
+}

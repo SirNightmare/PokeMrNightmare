@@ -1,0 +1,9 @@
+{
+    "token": "process.env.BOT_TOKEN", 
+    "prefix": "!", 
+    "ownerid": "360908660727087107", 
+    "embedcolor": "0xFFA2FF",
+    "allownsfw": "true",
+    "presencename": "MrNightmare_'s Open Sourced Bot!",
+    "fortniteapikey": "process.env.FORTNITE_TOKEN"
+}
