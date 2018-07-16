@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
         let Embed = new Discord.RichEmbed()
         .setAuthor("Google Search", bot.user.displayAvatarURL)
         .setColor(settings.embedcolor)
-        .setTitle(`Result for: ${args.join(" ")}`, `${link.link}`)
+        .setTitle(`Result found for: ${args.join(" ")} Link: ${link.link}`)
         .addField("Title:", link.title)
         .addField("Description:", link.description)
         .setTimestamp()
