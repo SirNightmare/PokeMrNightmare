@@ -3,7 +3,7 @@ const settings = require("../settings.json");
 const prefix = settings.prefix;
 let bot = new Discord.Client();
 const Client = require("fortnite")
-const fortnite = new Client(settings.fortniteapikey)
+const fortnite = new Client(process.env.FORTNITE_TOKEN)
 module.exports.run = async (bot, message, args) => {
     let username = args[0];
     let platform = args[1] || "pc";
